@@ -6,6 +6,9 @@ autosize: true
 
 English translation of these slides by prof Merja Heinäniemi
 
+
+![](kuvat/cc-by-small.png)
+
 Learning goals
 ========================================================
 - In this course we will learn to program with the R programming language in order to perform basic data analysis
