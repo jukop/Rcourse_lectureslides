@@ -1,8 +1,8 @@
 ---
-output: github_document
+author: Anton Klåvus, https://github.com/antonvsdata
+title: "Datan sisään lukeminen"
+output: html_notebook
 ---
-
-# Datan sisään lukeminen
 
 Tässä osiossa tutustutaan datan sisään lukemiseen ja sisäänluetun datan tarkistamiseen. Tähän mennessä kaikki kurssilla käsitelty data on luotu R:ssä. Useimmiten R:llä käsiteltävä data on kuitenkin tallennettu tiedostoon, joka on luotu automaattisesti jollain ohjelmalla tai kirjattu esim. Excelissä.
 

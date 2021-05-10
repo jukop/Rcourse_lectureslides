@@ -1,10 +1,10 @@
 ---
-output: github_document
+author: Anton Klåvus, https://github.com/antonvsdata
+title: "R-paketit"
+output: html_notebook
 ---
 
-# R-paketit
-
-Käytännön R-ohjelmointi nojaa tällä kurssilla esiteltyjen rakenteiden lisäksi hyvin pitkälti erilaisten pakettien käyttöön. Paketit ovat kooodikokoelmia, jotka sisältävät uusia funktioita, luokkia ja dataa eli ne laajentavat R:ää. 
+Käytännön R-ohjelmointi nojaa tällä kurssilla esiteltyjen rakenteiden lisäksi hyvin pitkälti erilaisten pakettien käyttöön. Paketit ovat koodikokoelmia, jotka sisältävät uusia funktioita, luokkia ja dataa eli ne laajentavat R:ää. 
 
 ## Pakettien asennus
 

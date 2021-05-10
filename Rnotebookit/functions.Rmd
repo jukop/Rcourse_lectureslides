@@ -1,9 +1,8 @@
 ---
-  output: github_document
+author: Anton Klåvus, https://github.com/antonvsdata
+title: "Funktiot"
+output: html_notebook
 ---
-
-
-# Funktiot
 
 Tällä viikolla opitaan kirjoittamaan itse funktioita ja pureudutaan sitä kautta syvemmälle R-funktioiden toimintaan. 
 

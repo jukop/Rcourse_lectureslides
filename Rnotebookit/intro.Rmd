@@ -1,9 +1,8 @@
 ---
-output: github_document
+author: Anton Klåvus, https://github.com/antonvsdata
+title: "R-ohjelmoinnin perusteet"
+output: html_notebook
 ---
-
-
-# R-ohjelmoinnin perusteet
 
 ## Mikä R on ja mitä sillä tehdään?
 

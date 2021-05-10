@@ -1,8 +1,8 @@
 ---
-output: github_document
+author: Anton Klåvus, https://github.com/antonvsdata
+title: "Uusia tietotyyppejä"
+output: html_notebook
 ---
-
-# Uusia tietotyyppejä
 
 ## Esittely
 

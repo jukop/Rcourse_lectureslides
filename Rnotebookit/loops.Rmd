@@ -1,8 +1,8 @@
 ---
-output: github_document
+author: Anton Klåvus, https://github.com/antonvsdata
+title: "Toistorakenteet (loops)"
+output: html_notebook
 ---
-
-# Toistorakenteet (loops)
 
 Toistorakenne toistaa annettua koodia. Toistorakenteet ovat ehtorakenteiden ohella ohjelmoinnin perusrakennuspalikoita. Tässä osiossa tutustutaan kahteen yleisimpään tapaukseen eli for ja while -silmukoihin. Mukana on myös maininta silmukoiden korvaamisesta R:n apply-funktioilla. Lopusta löytyy lisäksi vinkkejä tämän viikon tehtäviin.
 
@@ -362,5 +362,4 @@ Huomaa, että sarakkeiden keskiarvot eivät ole tismalleen 0. Tämä johtuu R:n 
 ## Vinkkejä tehtäviin
 
 Tämän viikon tehtävissä pitää muokata funktioita, jotka ovat erillisissä tiedostoissa. Jotta tehtävän palautus onnistuu, funktio pitää muokata tässä tiedostossa. Funktio kannattaa kuitenkin kopioida talteen toiseen tiedostoon, sillä tehtävän palauttaminen pyyhkii tiedoston.
-
 

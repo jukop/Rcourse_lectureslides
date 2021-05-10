@@ -1,9 +1,8 @@
 ---
-  output: github_document
-  pandoc_args: --webtex
+author: Anton Klåvus, https://github.com/antonvsdata
+title: " Lineaariset mallit ja tilastolliset jakaumat"
+output: html_notebook
 ---
-  
-# Lineaariset mallit ja tilastolliset jakaumat
   
 Tässä osiossa tutustutaan lineaarisiin malleihin ja yleisimpien jakaumien käyttöön R:ssä. Jos konseptit eivät ole tilastotieteen kursseilta tuttuja, ei hätää: tämä dokumentti sisältää lyhyet selitykset tärkeimmistä konsepteista, ja loput selitetään varsinaisilla tilastotieteen kursseilla.
 
