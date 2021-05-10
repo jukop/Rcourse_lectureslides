@@ -1,7 +1,7 @@
 Johdanto R-ohjelmointiin
 ========================================================
 author: Yliopistonlehtori, FT Juho Kopra
-#date: 7.5.2021
+#date: 10.5.2021
 autosize: true
 
 Kurssin oppimistavoitteet

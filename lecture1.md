@@ -1,7 +1,7 @@
 Introduction to R programming
 ========================================================
-author: University Lecturer, FT Juho Kopra
-#date: 7.5.2021
+author: University Lecturer, PhD Juho Kopra
+#date: 10.5.2021
 autosize: true
 
 Learning goals
@@ -128,12 +128,14 @@ left: 50%
 - code can be run directly in the R-command prompt (console)
     + the symbol > in the console means that the prompt is ready to receive code (commands) 
     + the command prompt interprets the code (calculation) and returns the result 
+    
+    ***
 - alternatively the code can be saved to a script file (with ending .R)
     + we will discuss this later
 - R is an interpreted language which means that the program does not need to be complete or installed separately in order to use it. It can be run line by line. In this way, as R user you are directly communicating with the computer using R language.
 
-***
-
+Arithmetics with R
+========================================================
 
 ```r
 1+6
