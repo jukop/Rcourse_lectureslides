@@ -4,7 +4,10 @@ author: Yliopistonlehtori, FT Juho Kopra
 #date: `r format(Sys.Date(),'%-d.%-m.%Y')`
 autosize: true
 
+<!-- empty comment row to make CC-BY image to set up correctly -->
+
 ![](kuvat/cc-by-small.png)
+
 
 Kurssin oppimistavoitteet
 ========================================================

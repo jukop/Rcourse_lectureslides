@@ -4,7 +4,10 @@ author: Yliopistonlehtori, FT Juho Kopra
 #date: 10.5.2021
 autosize: true
 
+<!-- empty comment row to make CC-BY image to set up correctly -->
+
 ![](kuvat/cc-by-small.png)
+
 
 Kurssin oppimistavoitteet
 ========================================================
