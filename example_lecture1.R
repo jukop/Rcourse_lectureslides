@@ -15,3 +15,6 @@ var_bool <- TRUE
 var_bool
 
 class(var_bool)
+
+var_char <- "this is text"
+class(var_char)
