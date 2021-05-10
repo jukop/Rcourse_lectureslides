@@ -1,8 +1,13 @@
 Johdanto R-ohjelmointiin
 ========================================================
 author: Yliopistonlehtori, FT Juho Kopra
-#date: 7.5.2021
+#date: 10.5.2021
 autosize: true
+
+<!-- empty comment row to make CC-BY image to set up correctly -->
+
+![](kuvat/cc-by-small.png)
+
 
 Kurssin oppimistavoitteet
 ========================================================
@@ -128,11 +133,14 @@ left: 50%
 - koodia voidaan ajaa suoraan R-komentokehotteessa (console)
     + komentokehotteessa oleva väkänen > tarkoittaa, että komentokehote on valmis vastaanottamaan koodia (komentoja)
     + komentokehote tulkitsee koodin (laskutoimituksen) ja palauttaa lopputuloksen
+    
+***
 - tai koodi voidaan tallentaa skriptitiedostoon (.R-päätteinen)
     + tähän palataan myöhemmin
 - R on tulkattava kieli, mikä tarkoittaa että ohjelman ei tarvitse olla valmis, jotta sitä voidaan käyttää, vaan sitä voidaan suorittaa rivi kerrallaan. Käyttäjä siis keskustelee tietokoneen kanssa R-kielen avulla.
 
-***
+Aritmetiikkaa R:llä
+========================================================
 
 
 ```r
