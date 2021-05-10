@@ -130,36 +130,17 @@ left: 50%
     + the command prompt interprets the code (calculation) and returns the result 
     
     ***
+    
 - alternatively the code can be saved to a script file (with ending .R)
     + we will discuss this later
 - R is an interpreted language which means that the program does not need to be complete or installed separately in order to use it. It can be run line by line. In this way, as R user you are directly communicating with the computer using R language.
 
-Arithmetics with R
-========================================================
-
-```r
-1+6
-```
-
-```
-[1] 7
-```
-
-```r
-5/7
-```
-
-```
-[1] 0.7142857
-```
 
 Mistakes in code?
 ========================================================
 left: 50%
 - the computer understands only exactly correct commands so even one wrong character in the code will cause trouble! 
     + computers cannot interpret and guess what you mean if you refer to the same thing with different names for example
-
-![](kuvat/fingerpori_pidetään_aitoina.jpeg)
 
 ***
 
