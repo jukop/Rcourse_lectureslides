@@ -1,7 +1,7 @@
 Introduction to R programming
 ========================================================
-author: Yliopistonlehtori, FT Juho Kopra
-#date: -d.-m.2021
+author: University Lecturer, FT Juho Kopra
+#date: 7.5.2021
 autosize: true
 
 Learning goals

@@ -1,6 +1,6 @@
 Introduction to R programming
 ========================================================
-author: Yliopistonlehtori, FT Juho Kopra
+author: University Lecturer, FT Juho Kopra
 #date: `r format(Sys.Date(),'%-d.%-m.%Y')`
 autosize: true
 
