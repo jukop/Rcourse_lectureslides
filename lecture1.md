@@ -4,6 +4,8 @@ author: University Lecturer, PhD Juho Kopra
 #date: 10.5.2021
 autosize: true
 
+English translation of these slides by prof Merja Heinäniemi
+
 Learning goals
 ========================================================
 - In this course we will learn to program with the R programming language in order to perform basic data analysis
