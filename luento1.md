@@ -4,6 +4,8 @@ author: Yliopistonlehtori, FT Juho Kopra
 #date: 10.5.2021
 autosize: true
 
+![](kuvat/cc-by-small.png)
+
 Kurssin oppimistavoitteet
 ========================================================
 - kurssilla opettelemme ohjelmoimaan R-kielellä sillä tasolla että kykenemme yksinkertaisiin tilastollisiin analyyseihin
