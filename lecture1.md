@@ -1,7 +1,7 @@
 Introduction to R programming
 ========================================================
 author: University Lecturer, PhD Juho Kopra
-#date: 10.5.2021
+#date: -d.-m.2021
 autosize: true
 
 English translation of these slides by prof Merja Heinäniemi
