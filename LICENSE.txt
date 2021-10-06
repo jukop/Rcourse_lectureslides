@@ -1,7 +1,9 @@
 COPYRIGHT
 
-Lecture videos lecture1.mp4 - lecture8.mp4 in English copyright by Merja Heinäniemi.
+Lecture videos lecture1.mp4 - lecture8.mp4 in folder videot in English copyright by Merja Heinäniemi.
 
-Lecture videos luento1.mp4 - luento18.mp4 in Finnish copyright by Juho Kopra. All right reserved without special permission.
+Lecture videos luento1.mp4 - luento18.mp4 in folder videot in Finnish copyright by Juho Kopra. All right reserved without special permission.
+
+Videos Rcourse_exam.mp4, Rcourse_loppukoe.m4v, Rcourse_package_installation.mp4, Rcourse_paketin_asennus.mp4 in folder videot copyright by Santtu Tikka.
 
 Lecture slides luento1.Rpres and lecture1.Rpres and their derivatives are licenced under CC-BY 4.0 (Creative Commons Attribution 4.0 International). Explanation: Anyone is allowed to use the lecture slides to any purpose as long as the names of original authors are mentioned on the first slide.
