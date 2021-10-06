@@ -1,7 +1,7 @@
 Johdanto R-ohjelmointiin
 ========================================================
 author: Yliopistonlehtori, FT Juho Kopra
-#date: 10.5.2021
+#date: 8.9.2021
 autosize: true
 
 <!-- empty comment row to make CC-BY image to set up correctly -->
@@ -415,7 +415,7 @@ Funktiot ja tiedonhaku
     ```
     + monet perusfunktioista on vuosikymmeniä vanhoja, jonka takia dokumentaatio ei ole aina kovin helppolukuista (pitää silti paikkansa)
         + Dokumentaation lopussa oleva Examples kannattaa suorittaa ja pohtia ymmärtääkö miten funktio toimii
-    + tavallisimpiin tarpeisiin on myös R Cheat Sheets, jotka ovat hyödyllisiä, esim. base R cheat sheet [lataa tästä](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
+    + tavallisimpiin tarpeisiin on myös R Cheat Sheets, jotka ovat hyödyllisiä, esim. base R cheat sheet [lataa tästä](https://vm3751.kaj.pouta.csc.fi/shiny/_book/files/base_R_cheat_sheet.pdf)
 
 Funktiot ja tiedonhaku
 ========================================================
@@ -518,6 +518,9 @@ y <<- 7.44 #harvinainen, mutta Rcourse -paketti pyytää tätä joskus
 x2 = 5.3 # toimii myös, mutta ei suositella
 ```
  - sijoitusoperaattoria käytettäessa arvoa ei palauteta
+ 
+***
+
  - jos haluaa katsoa mitä tuli sijoitetuksi, on muuttuja itse tulostettava
 
 ```r
@@ -707,24 +710,58 @@ left: 50%
   ```
 - **complex**: kompleksilukujen laskemiseen. Emme käytä.
 
+
+
 Alkeistietotyyppien erikoisarvot
 ========================================================
-- NA eli puuttuva arvo
-    + toimii kaikille alkeistietotyypeille
-        + NA\_real\_, NA\_character\_, NA\_complex\_,
-- Inf ja -Inf eli ääretön ja miinus ääretön esim. 1/0
-    + vain numeeriselle tietotyypille
-- NaN eli "Not a Number" 0/0
-- voidaan käsitellä funktioilla is.na(), is.nan(), is.finite()
+- NA eli **puuttuva arvo**
+    + käytetään aineistossa, kun lukuarvoa ei tunneta
     
     ```r
-    mean(c(1,2,NA),na.rm=TRUE)
+    x <- c(1,2,NA)
+    is.na(x)
+    ```
+    
+    ```
+    [1] FALSE FALSE  TRUE
+    ```
+    
+    ```r
+    mean(x)
+    ```
+    
+    ```
+    [1] NA
+    ```
+    
+    ```r
+    mean(x, na.rm=TRUE)
     ```
     
     ```
     [1] 1.5
     ```
-- NULL on määrittelemätön arvo. Harvoin tarpeellinen.
+    + toimii kaikille alkeistietotyypeille
+        + Joskus harvoin tarvitsee määritellä NA-arvon tyyppi, sen voi tehdä näin: NA\_real\_; NA\_character\_; NA\_complex\_
+
+***
+
+- Inf ja -Inf eli **ääretön ja miinus ääretön** esim. 1/0
+    + vain numeeriselle tietotyypille
+
+```r
+    x <- c(1,2,Inf)
+    is.finite(x)
+```
+
+```
+[1]  TRUE  TRUE FALSE
+```
+- NaN eli **"Not a Number"** 0/0
+    + nolla per nolla ei ole sallittua matematiikassa
+    + R käsittelee tämän ongelman siten, että 0/0 tuottaa NaN-arvon
+- voidaan käsitellä funktioilla is.na(), is.nan(), is.finite()
+- NULL on **määrittelemätön arvo**. Harvoin tarpeellinen.
     
     ```r
     x <- NULL
@@ -781,6 +818,12 @@ dat
 3    2.5 animal
 ```
 
+Hieman lisää tietotyypeistä
+========================================================
+- **factor** faktori-tietotyyppiin tutustuimme jo aiemmin
+    + faktori muodostetaan numeerisen tai tekstimuotoisen vektorin pohjalta
+    + teknisesti faktori on tietokoneen muistissa numeerinen vektori, jonka lukuarvoille on selitetekstit (label)
+
 Lista
 ========================================================
 left: 50%
@@ -824,12 +867,7 @@ $b
 3    2.5 animal
 ```
     
-Hieman lisää tietotyypeistä
-========================================================
-- **factor** faktori-tietotyyppiin tutustuimme jo aiemmin
-    + faktori muodostetaan numeriisen tai tekstimuotoisen vektorin pohjalta
-    + teknisesti faktori on tietokoneen muistissa numeerinen vektori, jonka lukuarvoille on selitetekstit (label)
-
+    
 Matriisi
 ========================================================
 - **matrix** matriisi on taulukko, joka sisältää vain yhtä alkeistietotyyppiä
@@ -847,4 +885,52 @@ matrix(vec,nrow=2,ncol=3)
 [1,]    1    3    5
 [2,]    2    4    6
 ```
+    
+Array
+========================================================
+- **array** on moniulotteinen taulukko, joka on matriisin yleistys.
+    + tarvitaan tilanteissa, joissa aineisto halutaan esittää kolme- tai useampiulotteisena taulukkona
+
+```r
+ar <- array(data=1:27,dim=c(3,3,3))
+ar # uses three indices
+```
+
+```
+, , 1
+
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+
+, , 2
+
+     [,1] [,2] [,3]
+[1,]   10   13   16
+[2,]   11   14   17
+[3,]   12   15   18
+
+, , 3
+
+     [,1] [,2] [,3]
+[1,]   19   22   25
+[2,]   20   23   26
+[3,]   21   24   27
+```
+
+***
+
+
+```r
+ar[,,1]
+```
+
+```
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+```
+
     
